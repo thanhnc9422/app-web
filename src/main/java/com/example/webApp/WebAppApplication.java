@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @SpringBootApplication
 @EnableMongoRepositories("repositories")
 public class WebAppApplication extends SpringBootServletInitializer {
-
+//hêhhehe
 	public static void main(String[] args) {
 		SpringApplication.run(WebAppApplication.class, args);
 	}
