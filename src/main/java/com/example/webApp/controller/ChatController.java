@@ -34,6 +34,7 @@ public class ChatController {
 //            message.setTimestamp(String.valueOf(LocalDateTime.now()));
             conversationService.addMessageToDocument(message);
             simpMessagingTemplate.convertAndSendToUser(message.getReceiver(), "/private", message);
+            //hehehehe
         } catch (Exception e) {
             System.out.println(e.toString());
         }
